@@ -1,0 +1,27 @@
+ .Pokemon__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.Pokemon__header h1 {
+    text-transform: uppercase;
+
+}
+
+.Pokemon-conteudo__input {
+   display: flex;
+   height: 42px;
+   width: 80%;
+   font-size: 17px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   width: 100%;
+   margin-bottom: 20px;
+   padding: 0 10px;
+   
+
+}
