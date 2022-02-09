@@ -1,5 +1,6 @@
 import React from "react";
 import './Pokemon.css';
+import { Link } from "react-router-dom";
 
 
 const PokemonCard = ({pokemon}) => (
@@ -13,6 +14,7 @@ const PokemonCard = ({pokemon}) => (
             <div className="pokemon-card__tipo">Tipo : {pokemon.tipo}</div><br/>
              
             <div className="pokemon-card_descricao" ><h2>Descrição:</h2>{pokemon.descricao}</div>
+            <Link to={'/edit/${Pokemon.ID}'}>Editar</Link>
 
         </div>
         

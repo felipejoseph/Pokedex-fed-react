@@ -9,7 +9,9 @@ const PagesPokemonForm = () => {
 
     return(
 
-        <UiContainer><PokemonForm/></UiContainer>
+        <UiContainer>
+            <PokemonForm id={id ? Number.parseInt(id, 10): null}/>
+            </UiContainer>
         
     )
 
