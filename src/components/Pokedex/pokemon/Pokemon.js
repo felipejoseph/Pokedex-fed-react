@@ -10,7 +10,7 @@ const PokemonCard = ({pokemon}) => (
         <div className="pokemon-card__info">
             <div className="pokemon-card__Numero">{pokemon.numero}</div>
             <div className="pokemon-card__title">{pokemon.nomePokemon}</div>
-            <div className="pokemon-card__tipo">Tipo : {pokemon.tipo}</div><br/>
+            <div alig className="pokemon-card__tipo">Type : {pokemon.tipo} </div><br/>
              
             <div className="pokemon-card_descricao" ><h2>Descrição:</h2>{pokemon.descricao}</div>
 

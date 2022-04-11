@@ -30,7 +30,7 @@ const PokemonSearch = () => {
                 
                 <header className="Pokemon__header">
                     <h1>Pokedex - Estudos</h1>
-                    <Link to="/create">Cadastro de Pokemon</Link>
+                    
                 </header>
                 <input 
                     type="text"
